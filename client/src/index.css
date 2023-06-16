@@ -1,0 +1,323 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.god {
+    background-color: lightyellow;
+    height: 100%;
+}
+.banner { 
+    width: 100%;
+}
+li, #add_question_button, #post_question_button, #answer_button, #post_answer_button {
+    cursor: pointer;
+}
+.question_button, .tag_button { 
+    padding: 10px 20px 15.1px 20px;
+    width: 10%;
+    text-align: center;
+    color: black;
+}
+
+.question_button:hover, .tag_button:hover, .logOut_button:hover, .username_link:hover {
+    color: darkblue;
+}
+.logOut_button, .username_link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.username_link {
+    min-width: 150px;
+}
+.logOut_button {
+    padding: 10px;
+}
+.liBox {
+    border-right: solid 1px black;
+}
+
+ul.nav { 
+    background-color: lightblue;
+    border: solid 1px black;
+    padding: 17px 50px 17px 0.1px;
+    font-size: 30px;
+    font-weight: bold;
+}
+ul.nav > li {  
+    display: inline-block;
+}
+.title {
+    text-align: center;
+    width: 25%;
+}
+.search_bar { 
+    background-color: white;
+    color: grey;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    font-size: 25px;
+    padding-right: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+/**-----------------------------------------------------------------------**/
+#main {
+    overflow-x: hidden;
+}
+#number_of_questions {
+    width:15%;
+}
+#page {
+    width: 40%;
+}
+#add_question_button {
+    border-right: solid 1px black;
+}
+#number_of_questions, #all_questions, #add_question_button {
+    padding: 10px;
+}
+#question_page_header {
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+}
+#full_question {
+    padding: 50px 20px 20px 20px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#answer_button {
+    padding: 1% 41% 0% 41%;
+    min-width: 500px;
+}
+/**-----------------------------------------------------------------------**/
+.new_question_page {
+    padding-left: 100px;
+    font-size: 15px;
+    background-color: lightblue;
+}
+#warning {
+    padding-top: 5px;
+    font-weight: bold;
+    color: red
+}
+#notes {
+    font-style: italic;
+}
+#question_title_input, #question_text_input, #tag_text_input, #username_text_input {
+    border: 1px solid black;
+}
+.input {
+    width: 90%;
+    height: 200px;
+    font-size: 15px;
+    background-color: lightyellow;
+}
+#post_question_button {
+    background-color: #165A92;
+    color: white;
+    border-radius: 10px;
+    font-size: 20;
+    text-align: center;
+    height: 90px;
+    font-size: 20px;
+    width: 45.25%;
+    text-decoration: none;
+
+
+}
+/**-----------------------------------------------------------------------**/
+#new_answer_page {
+    padding-left: 30px;
+}
+#answer_input {
+    font-size: 15px;
+    width: 1200px;
+    height: 300px;
+}
+#username_input {
+    font-size: 15px;
+    width: 1200px;
+    height: 50px;
+}
+#post_answer_button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #165A92;
+    color: white;
+    font-weight: bold;
+    border: solid;
+    width: 10%;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 20px;
+}
+/**-----------------------------------------------------------------------**/
+#question_stats, #question_name, #question_date {
+    font-weight: bold;
+}
+#question_stats {
+    width: 15%;
+}
+#question_name {
+    text-align: center;
+    width: 70%;
+}
+#question_date {
+    width: 15%;
+    text-align: right;
+}
+/**-----------------------------------------------------------------------**/
+.titleStyle {   
+    color: #349eeb;
+    width: 100%;
+    cursor: pointer;
+}
+.titleStyle:hover { 
+    color:#165A92
+}
+.statisticsStyle {
+    border-bottom: dotted;
+    padding-left: 100px;
+    width: 25%;
+}
+.question_details {
+    font-size: 25px;
+    width: 100%;
+    font-weight: 600;
+}
+.information {
+    border-bottom: dotted;
+    width: 58%;
+}
+.time {
+    border-bottom: dotted;
+    border-color: black;
+    min-width: 350px;
+    width: 25%;
+    color: grey;
+    text-align: right;
+    padding-right: 100px;
+}
+.responseStyle {
+    padding: 40px;
+    font-size: 19px;
+    border-bottom: dotted;
+}
+.answer_comment {
+    /* border-right: dotted; */
+    border-bottom: 2px solid black;
+}
+.smallTagStyle {
+    border: solid;
+    border-radius: 10px;
+    background-color: #686464;
+    color: white;
+    padding: 3px 8px 3px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.post_answer_button {
+    text-align: center;
+    border-radius: 300;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+.insideDiv {
+    flex: 0 0 33.333%;
+    text-align: center;
+    padding-top: 100px;
+}
+.inside {
+    padding: 10px 100px 10px 100px;
+    height: 100px;
+}
+.insideinside {
+    border:solid;
+}
+.insideinsideinside {
+    color: #0384fc;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 30px;
+    min-width: 200px;
+    min-height: 50px;
+}
+.centerDiv { 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightyellow;
+}
+.formFormat {   
+    border: solid;
+    background-color: lightblue;
+    padding: 50px
+}
+.createUserTextBox {
+    height: 25px;
+    width: 100%;
+}
+.ask_question, .answer_question{
+    color: black;
+    text-decoration: none;
+}
+.ask_question:hover, .answer_question:hover{
+    color: darkblue;
+}
+.summary {
+    font-size: 15px;
+}
+.comment_text {
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+}
+/* .comments {
+    border-right: dotted;
+} */
+.answer_text {
+    width: 99%;
+}
+.row {
+    display: flex;
+    margin-left:-5px;
+    margin-right:-5px;
+}
+  
+.column {
+    padding: 5px;
+}
+.sideBar {
+    border: solid;
+    min-height: 800px;
+}
+.editText {
+    width: 1000px;
+}
+.userAnswers {
+    width: 100%;
+}
+.sideQuestionButton {
+    background-color: lightskyblue;
+}
+.sideAnswerButton {
+    background-color: lightblue;
+}
+.sideTagButton {
+    background-color: lightcyan;
+}
+.votes {
+    width: 10%;
+    border-bottom: dotted;
+}
