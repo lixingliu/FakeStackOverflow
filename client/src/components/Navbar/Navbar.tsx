@@ -13,14 +13,22 @@ import SearchIcon from "@mui/icons-material/Search";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import Avatar from "@mui/material/Avatar";
-import { Search, SearchIconWrapper, StyledInputBase } from "./SearchComponents.tsx";
+import {
+  Search,
+  SearchIconWrapper,
+  StyledInputBase,
+} from "./SearchComponents.tsx";
 
 const pages = ["Questions", "Tags"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function Navbar() {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
-  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
+  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
+    null
+  );
+  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(
+    null
+  );
 
   const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
     setAnchorElNav(event.currentTarget);
@@ -38,7 +46,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "#6A0DAD" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */}
@@ -97,7 +105,10 @@ function Navbar() {
                 <SearchIconWrapper>
                   <SearchIcon />
                 </SearchIconWrapper>
-                <StyledInputBase placeholder="Search…" inputProps={{ "aria-label": "search" }} />
+                <StyledInputBase
+                  placeholder="Search…"
+                  inputProps={{ "aria-label": "search" }}
+                />
               </Search>
             </Menu>
           </Box>
@@ -142,7 +153,10 @@ function Navbar() {
               <SearchIconWrapper>
                 <SearchIcon />
               </SearchIconWrapper>
-              <StyledInputBase placeholder="Search…" inputProps={{ "aria-label": "search" }} />
+              <StyledInputBase
+                placeholder="Search…"
+                inputProps={{ "aria-label": "search" }}
+              />
             </Search>
           </Box>
           <Box sx={{ flexGrow: 0 }}>
@@ -169,7 +183,9 @@ function Navbar() {
             >
               {settings.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography sx={{ textAlign: "center" }}>{setting}</Typography>
+                  <Typography sx={{ textAlign: "center" }}>
+                    {setting}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
