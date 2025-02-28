@@ -3,10 +3,10 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 // import FakeStackOverflow from "./components/fakestackoverflow.js";
-import FakeStackOverflow from "./components/fakestackoverflow.tsx";
-import LoginPage from "./components/loginpage";
-import WelcomePage from "./components/welcomepage";
-import CreateUser from "./components/createuser";
+import FakeStackOverflow from "./app/components/fakestackoverflow.tsx";
+import LoginPage from "./app/components/loginpage.js";
+import WelcomePage from "./app/components/welcomepage.js";
+import CreateUser from "./app/components/createuser.js";
 
 const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
