@@ -9,7 +9,6 @@ const FakeStackOverflow = () => {
     <div>
       <Navbar />
       <Results />
-      {/* <Main /> */}
       {/* <Creatingquestionform /> */}
       {/* <CreateAnswerForm /> */}
     </div>
