@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-// import FakeStackOverflow from "./components/fakestackoverflow.js";
 import FakeStackOverflow from "./components/fakestackoverflow.tsx";
 import LoginPage from "./components/loginpage.js";
 import WelcomePage from "./components/welcomepage.js";
