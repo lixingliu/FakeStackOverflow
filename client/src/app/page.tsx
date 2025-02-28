@@ -31,9 +31,8 @@
 
 "use client";
 
-import { useRouter } from "next/navigation";
 import React from "react";
-import FakeStackOverflow from "./components/fakestackoverflow";
+import FakeStackOverflow from "@/app/components/fakestackoverflow";
 
 export default function Home() {
   return <FakeStackOverflow />;

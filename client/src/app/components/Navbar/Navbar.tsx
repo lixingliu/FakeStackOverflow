@@ -1,3 +1,5 @@
+'use client'
+
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -17,7 +19,7 @@ import {
   Search,
   SearchIconWrapper,
   StyledInputBase,
-} from "./SearchComponents.tsx";
+} from "./SearchComponents";
 
 const pages = ["Questions", "Tags"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];

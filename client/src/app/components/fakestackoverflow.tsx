@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import Creatingquestionform from "./creatingquestionform.js";
 import CreateAnswerForm from "./createanswerform.js";
