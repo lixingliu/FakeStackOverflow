@@ -1,8 +1,8 @@
 import React from "react";
 import Creatingquestionform from "./creatingquestionform.js";
 import CreateAnswerForm from "./createanswerform.js";
-import Navbar from "./Navbar/Navbar.tsx";
-import Results from "./Results.tsx";
+import Navbar from "./Navbar/Navbar";
+import Results from "./Results";
 
 const FakeStackOverflow = () => {
   return (

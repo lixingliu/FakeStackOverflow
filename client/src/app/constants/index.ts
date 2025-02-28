@@ -1,0 +1,1 @@
+export const PAYLOAD_ENDPOINT = "https://cookie-hub-server.vercel.app"
